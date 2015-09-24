@@ -1,0 +1,12 @@
+version: 0.6
+data_loading: TRUE
+cache_loading: TRUE
+recursive_loading: FALSE
+munging: TRUE
+logging: FALSE
+load_libraries: TRUE
+libraries: tidyr, dplyr, ggplot2, stringr, lubridate, Hmisc, mclust, caret, clustMD, foreach, cluster, fpc, zoo, randomForest
+as_factors: TRUE
+data_tables: FALSE
+attach_internal_libraries: FALSE
+
