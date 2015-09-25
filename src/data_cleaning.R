@@ -86,8 +86,8 @@ processed.data <- tmp %>%
 #    ,drvisits <= 76
   )
 # 
-# for(col in cat.vars)
-#    processed.data[, col] <- as.factor(processed.data[, col])
+for(col in cat.vars)
+   processed.data[, col] <- as.factor(processed.data[, col])
 
 
 

@@ -1,0 +1,5 @@
+graph_theme <- theme_bw()
+graph_theme$axis.text.y <- element_blank()
+graph_theme$axis.ticks <- element_blank()
+graph_theme$legend.text <- element_blank()
+graph_theme$axis.text.x <- element_text(angle = 45)
